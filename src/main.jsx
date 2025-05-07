@@ -5,17 +5,13 @@ import App from './App.jsx'
 
 
 import {
-  createBrowserRouter,
+
   RouterProvider,
 } from "react-router";
+import router from './Routes/Router.jsx';
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <div>Hello World</div>,
-  },
-]);
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
