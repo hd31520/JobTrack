@@ -1,22 +1,28 @@
 import React from 'react';
-import './hero.css'
-import heroimg from '../../assets/woman-searching-for-job-online-flat-color-detailed-character-vector.png'
+
+import heroimg from '../../assets/career.jpg'
+import { Link } from 'react-router';
 
 const Hero = () => {
     return (
        
-            <div className="hero bg-base-200 min-h-screen bg-hero text-white" >
+            <div className="hero bg-white min-h-screen p-10" >
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
                         src={heroimg}
                         className="max-w-sm rounded-lg shadow-2xl"
                     />
                     <div>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
+                        <h1 className="text-5xl font-bold">Instant Job Finder</h1>
                         <p className="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        At MyJobgator our job finder system updates the database every 5 minutes so you are rest assured you will be getting you Dream Job
                         </p>
+                        <h1 className="text-3xl font-semibold">Get access to top jobs first</h1>
+                        <p className="py-6">
+                        At MyJobgator our job finder system updates the database every 5 minutes so you are rest assured you will be getting you Dream Job
+                        </p>
+
+                        <Link to="register" className="btn btn-active btn-secondary">Secondary</Link>
                        
                     </div>
                 </div>

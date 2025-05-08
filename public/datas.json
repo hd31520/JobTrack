@@ -1,0 +1,363 @@
+[
+    {
+      "id": "1",
+      "name": "BEXIMCO",
+      "logo": "https://i.ibb.co.com/6cCcxnwP/BEXIMCO-logo-svg.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://beximco.com",
+      "industry": "Conglomerate (Textiles, Pharmaceuticals, Real Estate, Energy, Media, ICT)",
+      "jobs": [
+        {
+          "id": "job-001",
+          "title": "Software Engineer",
+          "bannerImage": "https://i.ibb.co.com/Kc33Fdck/beximxo.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "60,000 - 80,000",
+          "jobType": "Senior",
+          "workType": "code",
+          "published": "15/04/2024",
+          "deadLine": "15/05/2024",
+          "haveSeat": 5,
+          "description": "Develop and maintain software applications across various departments.",
+          "requirements": [
+            "Proficiency in Java and Python",
+            "Experience with web frameworks like Spring and Django",
+            "Knowledge of database systems (MySQL, PostgreSQL)",
+            "Strong problem-solving skills",
+            "Ability to work in a team environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Walton Group",
+      "logo": "https://i.ibb.co.com/VYn93G3M/Walton-Group-svg.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://waltonbd.com",
+      "industry": "Electronics, Home Appliances, IT, Automobiles",
+      "jobs": [
+        {
+          "id": "job-002",
+          "title": "Electrical Engineer",
+          "bannerImage": "https://i.ibb.co.com/MktLLC5T/walton.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "50,000 - 70,000",
+          "jobType": "Medium",
+          "workType": "engineering",
+          "published": "20/04/2024",
+          "deadLine": "20/05/2024",
+          "haveSeat": 3,
+          "description": "Design and develop electrical systems for home appliances.",
+          "requirements": [
+            "Bachelor's degree in Electrical Engineering",
+            "Experience with circuit design and analysis",
+            "Knowledge of safety standards and regulations",
+            "Proficiency in AutoCAD and simulation software",
+            "Strong analytical skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "ACI Limited",
+      "logo": "https://i.ibb.co.com/qYyrX7Mn/aci-group-logo-png-seeklogo-342185.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://aci-bd.com",
+      "industry": "Pharmaceuticals, Consumer Goods, Agribusiness, Retail",
+      "jobs": [
+        {
+          "id": "job-003",
+          "title": "Marketing Executive",
+          "bannerImage": "https://i.ibb.co.com/BVCkk6kB/aci.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "40,000 - 60,000",
+          "jobType": "Junior",
+          "workType": "sale",
+          "published": "10/04/2024",
+          "deadLine": "10/05/2024",
+          "haveSeat": 8,
+          "description": "Plan and execute marketing strategies for consumer products.",
+          "requirements": [
+            "Bachelor's degree in Marketing or Business Administration",
+            "Experience in FMCG marketing",
+            "Strong communication and negotiation skills",
+            "Ability to analyze market trends",
+            "Proficiency in MS Office Suite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Orion Group",
+      "logo": "https://i.ibb.co.com/4Ry3Qt8H/Orion-Group.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "http://www.orion-group.net/",
+      "industry": "Pharmaceuticals, Infrastructure, Power, Real Estate, Textiles",
+      "jobs": [
+        {
+          "id": "job-004",
+          "title": "Civil Engineer",
+          "bannerImage": "https://i.ibb.co.com/CKTX14zw/orion.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "55,000 - 75,000",
+          "jobType": "Senior",
+          "workType": "construction",
+          "published": "25/04/2024",
+          "deadLine": "25/05/2024",
+          "haveSeat": 2,
+          "description": "Oversee construction projects and ensure structural integrity.",
+          "requirements": [
+            "Bachelor's degree in Civil Engineering",
+            "Experience in construction project management",
+            "Knowledge of building codes and regulations",
+            "Proficiency in AutoCAD and structural analysis software",
+            "Strong leadership skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Renata Limited",
+      "logo": "https://i.ibb.co.com/chCnLVzG/renata-plc-logo.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://renata-ltd.com",
+      "industry": "Pharmaceuticals, Animal Health",
+      "jobs": [
+        {
+          "id": "job-005",
+          "title": "Quality Assurance Officer",
+          "bannerImage": "https://i.ibb.co.com/5WFs7CM1/reneta.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "45,000 - 65,000",
+          "jobType": "Medium",
+          "workType": "quality-control",
+          "published": "18/04/2024",
+          "deadLine": "18/05/2024",
+          "haveSeat": 6,
+          "description": "Ensure compliance with quality standards in pharmaceutical production.",
+          "requirements": [
+            "Bachelor's degree in Pharmacy or related field",
+            "Experience in quality assurance processes",
+            "Knowledge of GMP and regulatory requirements",
+            "Attention to detail",
+            "Strong documentation skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "PRAN-RFL Group",
+      "logo": "https://i.ibb.co.com/wF2XRS1P/rfl-logo-png-seeklogo-250040.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://pranfoods.net",
+      "industry": "Food & Beverage, Plastics, Consumer Goods",
+      "jobs": [
+        {
+          "id": "job-006",
+          "title": "Supply Chain Analyst",
+          "bannerImage": "https://i.ibb.co.com/DqyKGFm/pran.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "50,000 - 70,000",
+          "jobType": "Junior",
+          "workType": "analysis",
+          "published": "22/04/2024",
+          "deadLine": "22/05/2024",
+          "haveSeat": 4,
+          "description": "Analyze and optimize supply chain operations.",
+          "requirements": [
+            "Bachelor's degree in Supply Chain Management or related field",
+            "Experience with logistics and inventory management",
+            "Proficiency in ERP systems",
+            "Strong analytical and problem-solving skills",
+            "Excellent communication skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Square Pharmaceuticals Ltd.",
+      "logo": "https://i.ibb.co.com/Z1kkmfwg/square-angle-company-thumbnail.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://squarepharma.com.bd",
+      "industry": "Pharmaceuticals",
+      "jobs": [
+        {
+          "id": "job-007",
+          "title": "Medical Representative",
+          "bannerImage": "https://i.ibb.co.com/GvkNWY8S/square.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "35,000 - 50,000",
+          "jobType": "Beginner",
+          "workType": "sale",
+          "published": "12/04/2024",
+          "deadLine": "12/05/2024",
+          "haveSeat": 7,
+          "description": "Promote pharmaceutical products to healthcare professionals.",
+          "requirements": [
+            "Bachelor's degree in Science or Pharmacy",
+            "Strong communication and interpersonal skills",
+            "Ability to travel extensively",
+            "Knowledge of pharmaceutical products",
+            "Sales experience is a plus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "BRAC Bank PLC",
+      "logo": "https://i.ibb.co.com/MKxDKNy/brac.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://bracbank.com",
+      "industry": "Banking and Financial Services",
+      "jobs": [
+        {
+          "id": "job-008",
+          "title": "Relationship Manager",
+          "bannerImage": "https://i.ibb.co.com/6RwnQjTZ/brac.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "60,000 - 80,000",
+          "jobType": "Senior",
+          "workType": "finance",
+          "published": "28/04/2024",
+          "deadLine": "28/05/2024",
+          "haveSeat": 1,
+          "description": "Manage client relationships and develop new business opportunities.",
+          "requirements": [
+            "Bachelor's degree in Business or related field",
+            "Experience in banking or financial services",
+            "Strong sales and negotiation skills",
+            "Excellent communication skills",
+            "Ability to work under pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Grameenphone Ltd.",
+      "logo": "https://i.ibb.co.com/kVQyJjYr/grameenphone.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://grameenphone.com",
+      "industry": "Telecommunications",
+      "jobs": [
+        {
+          "id": "job-009",
+          "title": "Network Engineer",
+          "bannerImage": "https://i.ibb.co.com/Tx7Vq0Ht/grameenphone.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "55,000 - 75,000",
+          "jobType": "Medium",
+          "workType": "telecom",
+          "published": "05/04/2024",
+          "deadLine": "05/05/2024",
+          "haveSeat": 9,
+          "description": "Design and maintain telecommunication networks.",
+          "requirements": [
+            "Bachelor's degree in Computer Science or related field",
+            "Experience with network infrastructure",
+            "Knowledge of routing and switching protocols",
+            "Certification in CCNA or equivalent",
+            "Strong problem-solving skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Banglalink Digital Communications Ltd.",
+      "logo": "https://i.ibb.co.com/n86sJcFQ/Logo-of-Banglalink-svg.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://banglalink.net",
+      "industry": "Telecommunications",
+      "jobs": [
+        {
+          "id": "job-010",
+          "title": "Digital Marketing Specialist",
+          "bannerImage": "https://i.ibb.co.com/3y7KfKvy/banglalink.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "50,000 - 70,000",
+          "jobType": "Junior",
+          "workType": "marketing",
+          "published": "30/04/2024",
+          "deadLine": "30/05/2024",
+          "haveSeat": 3,
+          "description": "Develop and implement digital marketing campaigns.",
+          "requirements": [
+            "Bachelor's degree in Marketing or related field",
+            "Experience with SEO, SEM, and social media marketing",
+            "Proficiency in Google Analytics and AdWords",
+            "Creative thinking and problem-solving skills",
+            "Excellent communication skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Robi Axiata Limited",
+      "logo": "https://i.ibb.co.com/ccwPZV7G/roboi.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.robi.com.bd",
+      "industry": "Telecommunications",
+      "jobs": [
+        {
+          "id": "job-011",
+          "title": "Data Analyst",
+          "bannerImage": "https://i.ibb.co.com/SwZBjFMQ/robi.jpg",
+          "location": "Dhaka, Bangladesh",
+          "salary": "55,000 - 75,000",
+          "jobType": "Medium",
+          "workType": "analysis",
+          "published": "08/04/2024",
+          "deadLine": "08/05/2024",
+          "haveSeat": 5,
+          "description": "Analyze data trends to assist business decisions across departments.",
+          "requirements": [
+            "Bachelor's degree in Statistics, Computer Science or related field",
+            "Experience with SQL, Python/R",
+            "Familiarity with BI tools like Tableau or Power BI",
+            "Strong analytical and problem-solving skills",
+            "Excellent communication skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Pathao Ltd.",
+      "logo": "https://i.ibb.co.com/nsDVtSzc/Pathao-Here-with-You.png",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.pathao.com",
+      "industry": "Ride-sharing, Logistics, Fintech",
+      "jobs": [
+        {
+          "id": "job-012",
+          "title": "Mobile App Developer",
+          "bannerImage": "https://i.ibb.co.com/8D3n82N8/Pathao-Fest-Web-Landing-Page-Top-of-the-fold-Image.png",
+          "location": "Dhaka, Bangladesh",
+          "salary": "65,000 - 90,000",
+          "jobType": "Senior",
+          "workType": "code",
+          "published": "03/04/2024",
+          "deadLine": "03/05/2024",
+          "haveSeat": 10,
+          "description": "Develop and maintain Android and iOS applications for Pathao services.",
+          "requirements": [
+            "Experience with Flutter or React Native",
+            "Strong understanding of mobile UI/UX standards",
+            "Knowledge of app publishing process for Play Store and App Store",
+            "Familiarity with REST APIs and backend integration",
+            "Team collaboration and problem-solving skills"
+          ]
+        }
+      ]
+    }
+  ]
+  

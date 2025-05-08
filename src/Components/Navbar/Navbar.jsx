@@ -19,7 +19,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar bg-black text-white shadow-sm">
+        <div className="navbar bg-base-200 shadow-sm">
             <div className="flex-1">
                 <Link className="btn btn-ghost text-xl"><img className='h-10' src={logoimg} alt="" /></Link>
             </div>

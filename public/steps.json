@@ -1,0 +1,23 @@
+[
+    {
+      "icon": "fas fa-user-plus",
+      "title": "1. Sign Up",
+      "description": "Create your account in seconds with your email or social login."
+    },
+    {
+      "icon": "fas fa-briefcase",
+      "title": "2. Browse Jobs",
+      "description": "Search and filter job listings that match your skills and interests."
+    },
+    {
+      "icon": "fas fa-paper-plane",
+      "title": "3. Apply Easily",
+      "description": "Apply with one click and track the status of your applications."
+    },
+    {
+      "icon": "fas fa-comments",
+      "title": "4. Interview",
+      "description": "Connect with employers through chat or schedule interviews."
+    }
+  ]
+  
