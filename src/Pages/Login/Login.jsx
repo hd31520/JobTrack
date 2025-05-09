@@ -2,18 +2,21 @@ import React, { use } from 'react';
 import { FaUserCircle } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router';
 import { AuthContext } from '../../context/AuthContext';
+import Swal from 'sweetalert2';
 
 const Login = () => {
     const navigate = useNavigate();
-    const { singInUser,  } = use(AuthContext);
+    const { singInUser} = use(AuthContext);
 
-    const handleSubmit = async(e) => {
+    const loginHandle = e => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
         singInUser(email, password)
-            .then(result => {
-                console.log(result);
+            .then(() => {
+                // Swal.fire(` ${user.displayName} Login Successfully`);
+                Swal.fire("Login Successfully!");
+               
                 navigate('/')
             })
             .catch(error => {
@@ -21,9 +24,7 @@ const Login = () => {
             })
 
         console.log(email, password)
-     
     }
-
     return (
 
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-300 to-blue-400">
@@ -35,7 +36,7 @@ const Login = () => {
                     <h2 className="text-white text-xl tracking-widest"> LOGIN</h2>
                 </div>
 
-                <form onSubmit={handleSubmit} className="space-y-4">
+                <form onSubmit={loginHandle} className="space-y-4">
                     <label className="input input-bordered w-full flex items-center gap-2 bg-white/20 text-white placeholder-white/70">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +53,7 @@ const Login = () => {
                             />
                         </svg>
                         <input
-                        name='email'
+                            name='email'
                             type="email"
                             className="grow bg-transparent w-full text-white placeholder-white/80"
                             placeholder="Email ID"
@@ -75,7 +76,7 @@ const Login = () => {
                             />
                         </svg>
                         <input
-                        name='password'
+                            name='password'
                             type="password"
                             className="grow bg-transparent w-full text-white placeholder-white/80"
                             placeholder="Password"

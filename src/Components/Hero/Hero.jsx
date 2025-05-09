@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { use } from 'react';
 
 import heroimg from '../../assets/career.jpg'
 import { Link } from 'react-router';
+import { AuthContext } from '../../context/AuthContext';
 
 const Hero = () => {
+    const {user} = use(AuthContext);
     return (
        
             <div className="hero bg-white min-h-screen p-10" >
@@ -21,8 +23,10 @@ const Hero = () => {
                         <p className="py-6">
                         At MyJobgator our job finder system updates the database every 5 minutes so you are rest assured you will be getting you Dream Job
                         </p>
-
-                        <Link to="register" className="btn btn-active btn-secondary">Secondary</Link>
+{
+    !user ? <Link to="/register" className="btn btn-active btn-secondary">Get Started</Link> : ""
+}
+                        
                        
                     </div>
                 </div>

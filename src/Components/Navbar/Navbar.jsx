@@ -4,19 +4,43 @@ import { Link, NavLink } from 'react-router';
 import logoimg from '../../assets/logo (2).png'
 import './navbar.css'
 import { AuthContext } from '../../context/AuthContext';
+import Swal from 'sweetalert2';
 
 const Navbar = () => {
     const { user, loading, signOutUser } = use(AuthContext);
 
 
     const handleSignOut = () => {
-        signOutUser()
+
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't SygnOut!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, SygnOut !"
+          }).then((result) => {
+            if (result.isConfirmed) {
+
+                 signOutUser()
             .then(() => {
                 console.log("signOut SuccessFully")
+                Swal.fire({
+                title: "SyngOut Successfully!",
+                text: "Successfully",
+                icon: "success"
+              });
             })
             .catch(error => {
                 console.log(error)
             })
+              
+            }
+          });
+
+
+       
     }
 
     const navlink = <>
@@ -76,9 +100,7 @@ const Navbar = () => {
 
                     </div>
 
-                    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-
-                    </div>
+                    
                     <div>
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

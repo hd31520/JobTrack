@@ -2,7 +2,8 @@ import React, { use } from 'react';
 import { FaUserCircle } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router';
 import { AuthContext } from '../../context/AuthContext';
-import { Bounce, toast } from 'react-toastify';
+
+import Swal from 'sweetalert2';
 
 const Register = () => {
     const { CreateUser } = use(AuthContext);
@@ -30,17 +31,7 @@ const Register = () => {
             const data = await res.json();
             if (data.success) {
                 // setImageUrl(data.data.url);
-                toast('🦄You are Image upload successfully', {
-                    position: "top-right",
-                    autoClose: 5000,
-                    hideProgressBar: false,
-                    closeOnClick: false,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "light",
-                    transition: Bounce,
-                    });
+               
 
 
 
@@ -48,17 +39,7 @@ const Register = () => {
                     .then(result => {
                         console.log(result);
                        
-                        toast('🦄You are Clearly Sygn Up', {
-                            position: "top-right",
-                            autoClose: 5000,
-                            hideProgressBar: false,
-                            closeOnClick: false,
-                            pauseOnHover: true,
-                            draggable: true,
-                            progress: undefined,
-                            theme: "light",
-                            transition: Bounce,
-                            });
+                        Swal.fire("User Created Successfully!");
                             navigate('/')
                     })
                     .catch(error => {
