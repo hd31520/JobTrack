@@ -20,31 +20,32 @@ const Navbar = () => {
             confirmButtonColor: "#3085d6",
             cancelButtonColor: "#d33",
             confirmButtonText: "Yes, SygnOut !"
-          }).then((result) => {
+        }).then((result) => {
             if (result.isConfirmed) {
 
-                 signOutUser()
-            .then(() => {
-                console.log("signOut SuccessFully")
-                Swal.fire({
-                title: "SyngOut Successfully!",
-                text: "Successfully",
-                icon: "success"
-              });
-            })
-            .catch(error => {
-                console.log(error)
-            })
-              
+                signOutUser()
+                    .then(() => {
+                        console.log("signOut SuccessFully")
+                        Swal.fire({
+                            title: "SyngOut Successfully!",
+                            text: "Successfully",
+                            icon: "success"
+                        });
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+
             }
-          });
+        });
 
 
-       
+
     }
 
     const navlink = <>
         <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/templates">Templates</NavLink></li>
 
         {
             !user ?
@@ -54,12 +55,12 @@ const Navbar = () => {
                 </>
                 :
                 <>
-                 <li><NavLink to="/profile">Profile</NavLink></li>
+                    <li><NavLink to="/profile">Profile</NavLink></li>
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-3 px-2 mx-5'>
                         <buton onClick={handleSignOut}>LogOut</buton>
                         <div className="w-10 rounded-full">
-                            <img 
-                            className='w-10 h-10 rounded-full'
+                            <img
+                                className='w-10 h-10 rounded-full'
                                 alt="Tailwind CSS Navbar component"
                                 src={user?.photoURL} />
                         </div>
@@ -100,7 +101,7 @@ const Navbar = () => {
 
                     </div>
 
-                    
+
                     <div>
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

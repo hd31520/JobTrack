@@ -1,0 +1,291 @@
+[
+    {
+      "templateName": "Graphic Resume Template",
+      "templateId": 7,
+      "profile": {
+        "fullName": "Sophia Bennett",
+        "title": "Product Manager",
+        "photo": "https://i.ibb.co.com/MyVxJjkc/675ed887cfedc0-90898019.jpg",
+        "email": "sophia.bennett@example.com",
+        "phone": "+15551230001",
+        "location": "Austin, TX",
+        "socialLinks": {
+          "linkedin": "https://linkedin.com/in/sophiabennett",
+          "github": "https://github.com/sophiab",
+          "twitter": "https://twitter.com/pm_sophia"
+        }
+      },
+      "summary": "Visionary product manager with 8+ years of experience leading cross-functional teams to deliver customer-focused solutions in agile environments.",
+      "experience": [
+        {
+          "title": "Senior Product Manager",
+          "company": "Dropbox",
+          "years": "2021 - Present",
+          "details": "Launched collaboration tools used by 1M+ users; improved NPS by 18%."
+        }
+      ],
+      "education": [
+        {
+          "degree": "MBA",
+          "institution": "Harvard Business School",
+          "years": "2016 - 2018"
+        }
+      ],
+      "skills": ["Roadmapping", "Agile", "Scrum", "Data Analytics", "Stakeholder Communication"],
+      "interests": ["Cycling", "Photography", "Startups"],
+      "software": ["Jira", "Notion", "Excel", "Miro"],
+      "certifications": [],
+      "awards": [],
+      "languages": ["English", "German"],
+      "publications": [],
+      "accomplishments": [],
+      "affiliations": [],
+      "additionalInformation": "",
+      "others": [],
+      "reference": {
+        "name": "Tom Reeves",
+        "relationship": "VP at Dropbox",
+        "contact": "t.reeves@dropbox.com"
+      }
+    },
+    {
+      "templateName": "Graphic Resume Template",
+      "templateId": 7,
+      "profile": {
+        "fullName": "Diego Alvarez",
+        "title": "Software Engineer",
+        "photo": "https://i.ibb.co.com/rKHkDRN2/675ed8893b0c49-95674168.jpg",
+        "email": "diego.alvarez@example.com",
+        "phone": "+15557654321",
+        "location": "Miami, FL",
+        "socialLinks": {
+          "linkedin": "https://linkedin.com/in/diegodev",
+          "github": "https://github.com/diegocode"
+        }
+      },
+      "summary": "Passionate backend engineer with 5 years of experience building RESTful APIs and scalable systems.",
+      "experience": [
+        {
+          "title": "Backend Engineer",
+          "company": "Stripe",
+          "years": "2020 - Present",
+          "details": "Built microservices that process over $50M in transactions monthly."
+        }
+      ],
+      "education": [
+        {
+          "degree": "B.Sc. in Computer Science",
+          "institution": "University of Florida",
+          "years": "2014 - 2018"
+        }
+      ],
+      "skills": ["Node.js", "Go", "MongoDB", "Docker", "CI/CD"],
+      "interests": ["Chess", "Open-source", "Cryptography"],
+      "software": ["VS Code", "Postman", "Kubernetes"],
+      "certifications": ["AWS Certified Developer – Associate"],
+      "awards": [],
+      "languages": ["English", "Spanish"],
+      "publications": [],
+      "accomplishments": [],
+      "affiliations": [],
+      "additionalInformation": "",
+      "others": [],
+      "reference": {
+        "name": "Ana Torres",
+        "relationship": "Team Lead",
+        "contact": "ana.torres@stripe.com"
+      }
+    },
+    {
+      "templateName": "Graphic Resume Template",
+      "templateId": 7,
+      "profile": {
+        "fullName": "Emily Zhang",
+        "title": "Data Analyst",
+        "photo": "https://i.ibb.co.com/wZ8vRQWS/675ed87005a336-01485921.jpg",
+        "email": "emily.zhang@example.com",
+        "phone": "+15559876543",
+        "location": "Seattle, WA",
+        "socialLinks": {
+          "linkedin": "https://linkedin.com/in/emilyzhang",
+          "github": "https://github.com/emzdata"
+        }
+      },
+      "summary": "Data analyst skilled in turning data into actionable insights, with a passion for visualization and reporting.",
+      "experience": [
+        {
+          "title": "Data Analyst",
+          "company": "Airbnb",
+          "years": "2019 - Present",
+          "details": "Improved reporting processes; reduced query time by 40% using optimized SQL and Tableau dashboards."
+        }
+      ],
+      "education": [
+        {
+          "degree": "B.Sc. in Statistics",
+          "institution": "University of Washington",
+          "years": "2015 - 2019"
+        }
+      ],
+      "skills": ["SQL", "Python", "Tableau", "Power BI"],
+      "interests": ["Puzzles", "Hiking", "Infographics"],
+      "software": ["Excel", "Tableau", "RStudio"],
+      "certifications": [],
+      "awards": [],
+      "languages": ["English", "Mandarin"],
+      "publications": [],
+      "accomplishments": [],
+      "affiliations": [],
+      "additionalInformation": "",
+      "others": [],
+      "reference": {
+        "name": "Lisa Grant",
+        "relationship": "Analytics Lead",
+        "contact": "lisa.grant@airbnb.com"
+      }
+    },
+    {
+      "templateName": "Graphic Resume Template",
+      "templateId": 7,
+      "profile": {
+        "fullName": "Oliver Scott",
+        "title": "Marketing Specialist",
+        "photo": "https://i.ibb.co.com/YFqG1dYK/675ecff5cd3ac2-48710936.jpg",
+        "email": "oliver.scott@example.com",
+        "phone": "+15554560012",
+        "location": "Denver, CO",
+        "socialLinks": {
+          "linkedin": "https://linkedin.com/in/oliverscott",
+          "twitter": "https://twitter.com/marketoliver"
+        }
+      },
+      "summary": "Results-driven marketing specialist with expertise in campaign strategy, SEO, and brand development.",
+      "experience": [
+        {
+          "title": "Marketing Coordinator",
+          "company": "HubSpot",
+          "years": "2020 - Present",
+          "details": "Launched email campaigns with a 30% open rate increase; managed social content calendar."
+        }
+      ],
+      "education": [
+        {
+          "degree": "B.A. in Marketing",
+          "institution": "Colorado State University",
+          "years": "2013 - 2017"
+        }
+      ],
+      "skills": ["SEO", "Email Marketing", "Brand Strategy", "Analytics"],
+      "interests": ["Blogging", "Public Speaking", "Design"],
+      "software": ["Canva", "Hootsuite", "SEMRush"],
+      "certifications": ["Google Ads Certified"],
+      "awards": [],
+      "languages": ["English"],
+      "publications": [],
+      "accomplishments": [],
+      "affiliations": [],
+      "additionalInformation": "",
+      "others": [],
+      "reference": {
+        "name": "Amanda Blake",
+        "relationship": "Marketing Director",
+        "contact": "amanda.blake@hubspot.com"
+      }
+    },
+    {
+      "templateName": "Graphic Resume Template",
+      "templateId": 7,
+      "profile": {
+        "fullName": "Liam Patel",
+        "title": "DevOps Engineer",
+        "photo": "https://i.ibb.co.com/0jhmxPDz/675ed2acd9f923-06691167.jpg",
+        "email": "liam.patel@example.com",
+        "phone": "+15559990001",
+        "location": "San Diego, CA",
+        "socialLinks": {
+          "linkedin": "https://linkedin.com/in/liampatel",
+          "github": "https://github.com/devliam"
+        }
+      },
+      "summary": "DevOps engineer with a strong foundation in automation, infrastructure-as-code, and CI/CD pipelines.",
+      "experience": [
+        {
+          "title": "DevOps Engineer",
+          "company": "Netflix",
+          "years": "2022 - Present",
+          "details": "Created CI/CD pipelines, managed Kubernetes clusters, and reduced deployment time by 50%."
+        }
+      ],
+      "education": [
+        {
+          "degree": "B.Sc. in IT",
+          "institution": "UCSD",
+          "years": "2014 - 2018"
+        }
+      ],
+      "skills": ["AWS", "Terraform", "Docker", "Kubernetes", "GitHub Actions"],
+      "interests": ["Automation", "Self-hosting", "Tech Meetups"],
+      "software": ["Terraform", "Jenkins", "Ansible"],
+      "certifications": ["CKA", "Terraform Associate"],
+      "awards": [],
+      "languages": ["English", "Hindi"],
+      "publications": [],
+      "accomplishments": [],
+      "affiliations": [],
+      "additionalInformation": "",
+      "others": [],
+      "reference": {
+        "name": "Neil Wu",
+        "relationship": "SRE Lead",
+        "contact": "neil.wu@netflix.com"
+      }
+    },
+    {
+      "templateName": "Graphic Resume Template",
+      "templateId": 7,
+      "profile": {
+        "fullName": "Nora Ibrahim",
+        "title": "UX Researcher",
+        "photo": "https://i.ibb.co.com/k2ZsCDks/675ed8b4742238-60440868.jpg",
+        "email": "nora.ibrahim@example.com",
+        "phone": "+15553334455",
+        "location": "Chicago, IL",
+        "socialLinks": {
+          "linkedin": "https://linkedin.com/in/noraibrahim"
+        }
+      },
+      "summary": "Empathetic UX researcher focused on user insights and usability testing. Delivered actionable feedback across 15+ product launches.",
+      "experience": [
+        {
+          "title": "UX Researcher",
+          "company": "Slack",
+          "years": "2021 - Present",
+          "details": "Ran qualitative and quantitative research for enterprise features; helped increase user engagement by 12%."
+        }
+      ],
+      "education": [
+        {
+          "degree": "M.S. in Human-Computer Interaction",
+          "institution": "DePaul University",
+          "years": "2016 - 2018"
+        }
+      ],
+      "skills": ["User Interviews", "Surveys", "A/B Testing", "Persona Development"],
+      "interests": ["User Psychology", "Minimalism", "Writing"],
+      "software": ["Dovetail", "Lookback", "Optimal Workshop"],
+      "certifications": [],
+      "awards": [],
+      "languages": ["English", "Arabic"],
+      "publications": [],
+      "accomplishments": [],
+      "affiliations": [],
+      "additionalInformation": "",
+      "others": [],
+      "reference": {
+        "name": "Ellen Cho",
+        "relationship": "UX Director",
+        "contact": "ellen.cho@slack.com"
+      }
+    }
+  ]
+  
