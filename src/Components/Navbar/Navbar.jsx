@@ -57,12 +57,15 @@ const Navbar = () => {
                 <>
                     <li><NavLink to="/profile">Profile</NavLink></li>
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-3 px-2 mx-5'>
-                        <buton onClick={handleSignOut}>LogOut</buton>
+                        <buton className="btn btn-warning" onClick={handleSignOut}>LogOut</buton>
                         <div className="w-10 rounded-full">
+                            <Link>
                             <img
                                 className='w-10 h-10 rounded-full'
                                 alt="Tailwind CSS Navbar component"
                                 src={user?.photoURL} />
+                            </Link>
+                            
                         </div>
                     </div>
                 </>
