@@ -37,7 +37,7 @@ const router = createBrowserRouter([
         },
         {
           path:'profile',
-          Component: Profile
+          element: <PrivetRoutes><Profile></Profile></PrivetRoutes>
         }
     ]
   },

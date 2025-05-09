@@ -1,10 +1,46 @@
 import React, { use } from "react";
 import { AuthContext } from "../../context/AuthContext";
+import Swal from "sweetalert2";
 
 const Profile = () => {
-    const {user} = use(AuthContext);
+    const {user,signOutUser} = use(AuthContext);
     console.log(user)
     const photoprofile = user?.photoURL;
+
+
+
+    const handleSignOut = () => {
+    
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You won't SygnOut!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, SygnOut !"
+              }).then((result) => {
+                if (result.isConfirmed) {
+    
+                     signOutUser()
+                .then(() => {
+                    console.log("signOut SuccessFully")
+                    Swal.fire({
+                    title: "SyngOut Successfully!",
+                    text: "Successfully",
+                    icon: "success"
+                  });
+                })
+                .catch(error => {
+                    console.log(error)
+                })
+                  
+                }
+              });
+    
+    
+           
+        }
     return (
         <div className="min-h-screen  bg-white text-black">
             <div className="bg-purple-200 h-40 w-full rounded-b-3xl relative">
@@ -34,7 +70,7 @@ const Profile = () => {
                     Settings
                 </div>
 
-                <div className="px-4 py-3 flex items-center gap-2 text-red-500">
+                <div onClick={handleSignOut} className="px-4 py-3 flex items-center gap-2 text-red-500">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7" /></svg>
                     Log out
                 </div>

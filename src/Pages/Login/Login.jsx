@@ -1,12 +1,15 @@
 import React, { use } from 'react';
 import { FaUserCircle } from 'react-icons/fa';
-import { Link, useNavigate } from 'react-router';
+import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../../context/AuthContext';
 import Swal from 'sweetalert2';
 
 const Login = () => {
     const navigate = useNavigate();
     const { singInUser} = use(AuthContext);
+    const location = useLocation();
+    console.log(location)
+    const from = location.state?.from || '/';
 
     const loginHandle = e => {
         e.preventDefault();
@@ -17,7 +20,7 @@ const Login = () => {
                 // Swal.fire(` ${user.displayName} Login Successfully`);
                 Swal.fire("Login Successfully!");
                
-                navigate('/')
+                navigate(from)
             })
             .catch(error => {
                 console.log("Login failed:", error.code, error.message, error)
