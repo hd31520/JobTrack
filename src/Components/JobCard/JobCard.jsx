@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const JobCard = ({data}) => {
+const JobCard = ({ data }) => {
     return (
         <Link to={`/company/${data.id}`} className="card bg-base-100 shadow-2xl w-64 md:w-72 h-64 flex justify-center items-center p-4 transform transition-transform duration-300 hover:scale-105">
             <div >
@@ -21,7 +21,7 @@ const JobCard = ({data}) => {
                         <h3 className='text-sm font-medium'>{data.name}</h3>
                         <h3 className='text-base font-bold'>{data.jobs[0].title}</h3>
                     </div>
-                   
+
                 </div>
             </div>
 

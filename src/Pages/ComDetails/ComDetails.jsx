@@ -5,10 +5,12 @@ import { GrUserManager } from 'react-icons/gr';
 import { MdDateRange } from 'react-icons/md';
 import { TfiBag } from 'react-icons/tfi';
 import { useParams } from 'react-router';
+import Swal from 'sweetalert2';
 
 const ComDetails = () => {
     const { id } = useParams();
     const [dataer, setData] = useState({})
+    // const navigate = useNavigate();
 
 
 
@@ -21,13 +23,40 @@ const ComDetails = () => {
 
                 const [result] = data.filter(item => item.id === id);
                 setData(result);
-                console.log(result);
+              
 
             })
-            .catch(error => {
-                console.log(error, "fetch data problem")
-            })
-    }, [id])
+            
+    }, [id]);
+
+
+
+    const handleDetails = () => {
+        Swal.fire({
+            title: "Short Details of this Company",
+            html: `
+            <div style="border: 1px solid #ccc; width: 100%; padding: 16px; border-radius: 8px; box-shadow: 2px 2px 5px #aaa;">
+                <h2 style="margin-top: 0;"><strong>Job Name:</strong>${dataer.jobs[0].title}</h2>
+                <p> <strong>Company Name:</strong> : ${dataer.name}</p>
+                <p><strong>Description:</strong>${dataer.jobs[0].description}</p>
+               
+            </div>
+  `,
+
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Apply "
+        }).then((result) => {
+            if (result.isConfirmed) {
+
+                window.location.href = dataer.website;
+
+            }
+        });
+    }
+
+
 
     if (Object.keys(dataer).length === 0) {
         return <span className="loading loading-bars loading-xl"></span>
@@ -127,7 +156,9 @@ const ComDetails = () => {
 
 
             </div>
-
+            <div className='flex justify-center items-center p-5'>
+                <button className='btn btn-primary' onClick={handleDetails}>Details</button>
+            </div>
 
             {/* Bottom */}
             <div className='border-2 border-gray-300 p-5 rounded-md flex flex-col justify-between gap-6'>

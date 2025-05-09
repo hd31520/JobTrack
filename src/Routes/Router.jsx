@@ -4,6 +4,12 @@ import Home from "../Pages/Home/Home";
 import ComDetails from "../Pages/ComDetails/ComDetails";
 
 
+import Register from "../Pages/Register/Register";
+import Login from "../Pages/Login/Login";
+import Profile from "../Pages/Profile/Profile";
+import PrivetRoutes from "./PrivetRoutes"
+
+
 
 
 
@@ -19,8 +25,19 @@ const router = createBrowserRouter([
         },
         {
             path: 'company/:id',
-            element: <ComDetails></ComDetails>
-
+            element: <PrivetRoutes><ComDetails></ComDetails></PrivetRoutes>
+        },
+        {
+          path: 'register',
+          element: <Register></Register>
+        },
+        {
+          path: 'login',
+          element: <Login></Login>
+        },
+        {
+          path:'profile',
+          Component: Profile
         }
     ]
   },
