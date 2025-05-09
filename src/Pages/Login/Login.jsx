@@ -88,7 +88,7 @@ const Login = () => {
 
                     <div className="flex justify-between items-center text-sm text-white">
 
-                        <Link className="link link-hover text-white/80">Forgot Password?</Link>
+                        <Link to='/forget' className="link link-hover text-white/80">Forgot Password?</Link>
                     </div>
 
                     <button className="btn w-full mt-2 bg-white/30 text-white border-none hover:bg-white/50">

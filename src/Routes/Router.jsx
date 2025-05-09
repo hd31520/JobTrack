@@ -9,6 +9,8 @@ import Login from "../Pages/Login/Login";
 import Profile from "../Pages/Profile/Profile";
 import PrivetRoutes from "./PrivetRoutes"
 import Templates from "../Pages/Templates/Templates";
+import Forget from "../Pages/ForgetPage/Forget";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 
 
@@ -18,7 +20,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    // errorElement:<h1>This ois error</h1>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
         {
             index: true,
@@ -43,6 +45,10 @@ const router = createBrowserRouter([
         {
           path:'templates',
           element: <Templates></Templates>
+        },
+        {
+          path: 'forget',
+          element:<Forget></Forget>
         }
     ]
   },

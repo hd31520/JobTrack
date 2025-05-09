@@ -3,6 +3,7 @@ import Hero from '../../Components/Hero/Hero';
 import HowItWorks from '../../Components/HowItsWork/HowItsWork';
 import JobCard from '../../Components/JobCard/JobCard';
 import Company from './company/Company';
+import Notices from '../../Components/Notices/Notices';
 
 const Home = () => {
     const [datas, setDatas] = useState([])
@@ -22,6 +23,7 @@ const Home = () => {
             <Hero></Hero>
             <HowItWorks></HowItWorks>
            <Company datas={datas}></Company>
+           <Notices></Notices>
             
         </div>
     );
