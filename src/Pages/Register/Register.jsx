@@ -17,6 +17,19 @@ const Register = () => {
         const email = form.email.value;
         const password = form.password.value;
         const name = form.name.value;
+
+         const passwordIsValid = /[A-Z]/.test(password) && 
+                    /[a-z]/.test(password) && 
+                    password.length >= 6;    
+        
+                if (!passwordIsValid) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Invalid Password',
+                        text: 'Password must be at least 6 characters long and include both uppercase and lowercase letters.'
+                    });
+                    return;
+                }
     
         const apiKey = import.meta.env.VITE_IMG_BB_API;
         const formData = new FormData();

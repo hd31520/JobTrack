@@ -8,10 +8,10 @@ import Swal from 'sweetalert2';
 
 const Login = () => {
     const navigate = useNavigate();
-    const { singInUser,signInWithGitHub,signInWithGoogle} = use(AuthContext);
+    const { singInUser, signInWithGitHub, signInWithGoogle } = use(AuthContext);
     const location = useLocation();
     signInWithGitHub,
-    signInWithGoogle
+        signInWithGoogle
 
 
 
@@ -23,11 +23,25 @@ const Login = () => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
+
+        const passwordIsValid = /[A-Z]/.test(password) && 
+            /[a-z]/.test(password) && 
+            password.length >= 6;    
+
+        if (!passwordIsValid) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Invalid Password',
+                text: 'Password must be at least 6 characters long and include both uppercase and lowercase letters.'
+            });
+            return;
+        }
+
         singInUser(email, password)
             .then(() => {
                 // Swal.fire(` ${user.displayName} Login Successfully`);
                 Swal.fire("Login Successfully!");
-               
+
                 navigate(from)
             })
             .catch(error => {
@@ -39,27 +53,27 @@ const Login = () => {
 
     const githubLogin = () => {
         signInWithGitHub()
-        .then(res => {
-            console.log(res.data)
-            Swal.fire("Login Successfully!");
-            navigate(from)
-        })
-        .catch(err => {
-            console.log("Login failed:", err.code, err.message, err)
-        })
+            .then(res => {
+                console.log(res.data)
+                Swal.fire("Login Successfully!");
+                navigate(from)
+            })
+            .catch(err => {
+                console.log("Login failed:", err.code, err.message, err)
+            })
     }
 
 
     const googleLogin = () => {
         signInWithGoogle()
-        .then(res => {
-            console.log(res.data)
-            Swal.fire("Login Successfully!");
-            navigate(from)
-        })
-        .catch(err => {
-            console.log("Login failed:", err.code, err.message, err)
-        })
+            .then(res => {
+                console.log(res.data)
+                Swal.fire("Login Successfully!");
+                navigate(from)
+            })
+            .catch(err => {
+                console.log("Login failed:", err.code, err.message, err)
+            })
     }
     return (
 
